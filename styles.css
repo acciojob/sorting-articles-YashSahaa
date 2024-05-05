@@ -1,15 +1,22 @@
 /*  your css code here. If applicable */
-body{
-	position:relative;
+*{
+	margin:0px;
 }
-li{
-	border-bottom:1px solid black;
+ul li{
+	border-bottom:2px solid black;
+	height:45px;
+    padding-top:20px;
 }
-#band{
-	position:absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color:white;
-	padding:50px;
+
+#bands{
+	
+	width:300px;
+    background-color:#fff;
+	/* border-left: 20px solid grey;
+	border-right: 20px solid grey; */
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	list-style-type:square;
+
 }
